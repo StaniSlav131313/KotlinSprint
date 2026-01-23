@@ -2,7 +2,7 @@ package org.example.app
 
 fun main() {
 
-    val year: Int = 1961
+    val year: String = "1961"
     var hour: String = "09"
     var minute: String = "07"
 
@@ -13,9 +13,6 @@ fun main() {
     hour = "10"
     minute = "55"
 
-    print(hour+":")
-    println(minute)
+    print("$hour:$minute")
 
-    //println(hour +":"+ minute)
-    //println("${hour}:${minute}")
 }
